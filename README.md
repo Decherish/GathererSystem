@@ -54,5 +54,5 @@ finally:
 ```
 数据全部封装好后，首先开启一个Session,并获得相应的cookies，然后为header添加cookies，利用session提交post请求模拟登录
 response = s.post(url,headers=headers,data=data)
-后面的操作就是模仿前面的样子，观察Network捕获的aspx，构造相应的表头和data，然后用session去post或者get
-回来的数据利用BeautifulSoup来解析，解析方式用"lxml"，想要的值通过find方法获取大概后再通过字符串截取来取得
+<br>后面的操作就是模仿前面的样子，观察Network捕获的aspx，构造相应的表头和data，然后用session去post或者get
+<br>返回的数据利用BeautifulSoup来解析，解析方式用"lxml"，想要的值通过find方法获取大概后再通过字符串截取来取得
