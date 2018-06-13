@@ -12,7 +12,7 @@
 ##项目开发：
 * 数据库设计：按照给出的sql文件设计
 首先用浏览器访问[正方系统](http://210.38.162.116/(wk5amj45g5b5dh55roqgh445)/default2.aspx)的网址，同时打开开发者工具，输入一次登录，观察Network捕获到的defau2.ajpx
-![](https://github.com/Decherish/pythonDemo/raw/master/image/picture1.png)
+![](https://github.com/Decherish/pythonDemo/raw/master/picture1.png)
 根据Headers构造相应的表头和数据data
 ```python
 headers = {
